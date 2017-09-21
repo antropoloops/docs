@@ -3,6 +3,16 @@ Documentación del proceso de desarrollo de los talleres
 
 ## Raspberry PI
 
+### Formatear la tarjeta SD desde OS X
+1. Abrir terminal, sin la tarjeta metida en el ordenador todavía `df -h`
+2. Insertar tarjeta y correr `df -h` otra vez.
+3. Comparando la lista de volumenes montados podemos averiguar el nombre de la tarjeta. Algo como /dev/disk3s1
+4. Desmontar la tarjeta para poder escribir en ella `sudo diskutil unmount /dev/disk3s1`
+5. Averiguar el nombre crudo de la tarjeta. Se hace reemplazando disk por rdisk y quitando s1 del final. -> /dev/rdisk3
+6. Asegurate de que la imagen está descargada y unzipped. Hemos descargado Raspbian Stretch with Desktop de [aquí](https://www.raspberrypi.org/downloads/raspbian/).
+7. Hay que hacer una copia bit-by-bit. `sudo dd bs=1m if=~/2017-09-07-raspbian-stretch.img of=~/dev/rdisk3`
+8. Tarda unos minutos y no dice nada hasta que acaba.
+
 ### entrar via ssh en osx/linux (2017-09-21).
 
 Enlaces:
