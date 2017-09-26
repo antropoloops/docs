@@ -1,6 +1,6 @@
 # Instalando ghost.org
 
-Seguir las instrucciones [aquí](https://primoz.xyz/running-ghost-on-scaleway-node-js-instance/)
+Seguir las instrucciones [aquí](https://docs.ghost.org/v1.0.0/docs/install)
 
 Carpeta recomendada para instalar ghost
 ```
@@ -12,18 +12,28 @@ Lo instalo en subcarpeta por si queremos tener dos instancias de ghost instalada
 root@blogs:/var/www# mkdir talleres
 root@blogs:/var/www# cd talleres
 ```
+Instalar Nginx
+```
+sudo apt-get install nginx
+```
 
-Descargar última versión
+If ufw was activated we need to make sure that the firewall allows HTTP and HTTPS connections.
 ```
-root@blogs:/var/www/talleres# wget https://ghost.org/zip/ghost-latest.zip
-root@blogs:/var/www/talleres# unzip ghost-latest.zip
+sudo ufw allow 'Nginx Full'
 ```
+Cuando meto esto no reconoce ufw, así que me imagino que no se ha activado ningún firewall
+
+Instalar mysql
+```
+sudo apt-get install mysql-server
+```
+
 Instalar Node.js
 ```
-root@blogs:/var/www/talleres# curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash
 sudo apt-get install -y nodejs
 ```
-Instalamos los paquetes de package.json
+Instalamos ghost--cli
 ```
-root@blogs:/var/www/talleres# npm install --production
+sudo npm i -g ghost-cli
 ```
