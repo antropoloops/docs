@@ -12,6 +12,12 @@ Lo instalo en subcarpeta por si queremos tener dos instancias de ghost instalada
 root@blogs:/var/www# mkdir talleres
 root@blogs:/var/www# cd talleres
 ```
+Creo usuario nuevo, añado privilegios de superusuario (puede hacer tareas administrativas usando sudo) y entro
+```
+adduser espe
+usermod -aG sudo espe
+```
+
 Instalar Nginx
 ```
 sudo apt-get install nginx
@@ -37,3 +43,16 @@ Instalamos ghost--cli
 ```
 sudo npm i -g ghost-cli
 ```
+
+Creamos nueva carpeta
+```
+sudo mkdir -p /var/www/talleres/ghost
+sudo chown espe:espe /var/www/ghost
+cd /var/www/talleres/ghost
+```
+
+E instalamos ghost
+```
+ghost install
+```
+
