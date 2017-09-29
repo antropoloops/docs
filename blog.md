@@ -7,11 +7,7 @@ Carpeta recomendada para instalar ghost
 root@blogs:~# mkdir /var/www
 root@blogs:~# cd /var/www
 ```
-Lo instalo en subcarpeta por si queremos tener dos instancias de ghost instaladas en el servidor
-```
-root@blogs:/var/www# mkdir talleres
-root@blogs:/var/www# cd talleres
-```
+
 Creo usuario nuevo, añado privilegios de superusuario (puede hacer tareas administrativas usando sudo) y entro
 ```
 adduser espe
