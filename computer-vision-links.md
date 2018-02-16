@@ -47,6 +47,8 @@ Future Lab Program T - Demo Application 03: https://www.youtube.com/watch?v=SS3H
 
 Future Lab Program T - Interaction 03: https://www.youtube.com/watch?time_continue=15&v=0TThak7sF94
 
+Future Lab Program T - Demo Application 04 https://www.youtube.com/watch?v=QMazTqIc7zI
+
 LIVING LIBRARY INTERACTIVE PROJECTED ENCYCLOPEDIA: http://design-io.com/projects/LivingLibrary/
 
 ## IR camera + projection in VL
