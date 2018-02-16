@@ -233,3 +233,11 @@ Live Looping with Ableton and Xbox Kinect: https://www.youtube.com/watch?v=xPcoM
 - AirDrum. Air drum with the Leap device: https://github.com/stocyr/AirDrum , https://www.youtube.com/watch?v=xdm_2FO44ug
 
 - Virtual Drum Simulator Using Computer Vision: https://www2.ia-engineers.org/iciae/index.php/icisip/icisip2016/paper/viewFile/1161/794
+
+## Interactive Illustration
+
+prosthetic knowledge: 
+* http://prostheticknowledge.tumblr.com/post/113347037901/storytelling-through-playful-interactions
+* https://vimeo.com/121878247
+	* Usando touch via materiales bajo el panel. Fijos. Proyectores por encima de la gente, (ultrashort-throw supongo).
+	* > Screen-printed illustrations spring to life when touched, as conductive ink triggers a host of playful digital animations – a mix of informative and charming content, from product information to brand stories to chasing ducks.
