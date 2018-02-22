@@ -45,3 +45,6 @@ Lo hecho (osx 10.9.5 / Miguel/ Espe):
 
 ![ssh](/img/ssh_pi.png)
 
+### entrar via cable ethernet conectado a mac OSX
+
+[How to SSH into your Raspberry Pi with a Mac and Ethernet Cable](https://medium.com/@tzhenghao/how-to-ssh-into-your-raspberry-pi-with-a-mac-and-ethernet-cable-636a197d055)

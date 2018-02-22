@@ -36,6 +36,9 @@ Openframeworks Synapse addon
 
 
 ## INTERACTIVE TABLES
+
+Overly / Interactive museum installation / 2016: https://www.youtube.com/watch?v=m4_5EtQWQdk
+
 Monet in Zaandam: An interactive table: https://forum.openframeworks.cc/t/monet-in-zaandam-an-interactive-table/22810
 
 *** Sony's prototype projector turns any tabletop into a touch-sensitive display: 
@@ -218,13 +221,26 @@ Entire Dance with High-speed Projection Mapping #PanasonicCES 2016: https://www.
 ## KINECT
 
 SYNAPSE for Kinect: http://synapsekinect.tumblr.com/post/6307790318/synapse-for-kinect
+
 Live Looping with Ableton and Xbox Kinect: https://www.youtube.com/watch?v=xPcoM7BIDZ4
+
+WIRING AN XBOX KINECT FOR USB: http://www.instructables.com/id/Wiring-an-Xbox-Kinect-for-USB/
+
+HowTo: Build a Kinect USB Cable to use it with Mac, Linux, Windows: https://www.youtube.com/watch?v=ver1kJKOrww
 
 ## MUSIC CONTROL 
 
 - Hand gesture to control music with python and opencv demo: https://www.youtube.com/watch?v=TYxEg0my8ek
 
 - Raspberry Pi sonic-track.py a Sonic-pi Motion Track Demo: https://github.com/pageauc/sonic-track
+
+Créer une interface tactile sur un bout de papier: 
+* http://etapes.com/creer-une-interface-tactile-sur-un-bout-de-papier
+* https://vimeo.com/42053193
+
+Kinectar. Your MIDI-Kinect interface: 
+* http://www.ethnotekh.com/software/kinectar/
+* https://www.youtube.com/watch?v=DqVpysEywec
 
 ### Air Drums
 
@@ -241,3 +257,10 @@ prosthetic knowledge:
 * https://vimeo.com/121878247
 	* Usando touch via materiales bajo el panel. Fijos. Proyectores por encima de la gente, (ultrashort-throw supongo).
 	* > Screen-printed illustrations spring to life when touched, as conductive ink triggers a host of playful digital animations – a mix of informative and charming content, from product information to brand stories to chasing ducks.
+* http://www.dalziel-pow.com/zippy-digital-installations-making/ 
+
+support the videos making the narration more engaging and comprehensible to the final user.: http://fuseinteractive.it/en/project/urban-house-en/
+
+VLES Interactive light installation: 
+*  http://www.artnau.com/2015/05/vles-interactive-light-installation/
+*  https://vimeo.com/128466327
